@@ -20,7 +20,7 @@ $(document).ready(function(){
     });
 
     const counters = document.querySelectorAll('.counter');
-    const speed = 10;
+    const speed = 1;
     counters.forEach(counter => {
 	const updateCount = () => {
 		const target = +counter.getAttribute('data-target');
